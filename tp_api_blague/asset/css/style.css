@@ -1,0 +1,99 @@
+/* Style général */
+body {
+    background: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Titre principal */
+h1 {
+    color: #343a40;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Formulaire */
+form#form_blague {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+input#nbr_blague {
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+button.ajout_blague,
+button#supprimer_tout {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button.ajout_blague:hover {
+    background: #0056b3;
+}
+
+button#supprimer_tout {
+    background: #dc3545;
+}
+
+button#supprimer_tout:hover {
+    background: #a71d2a;
+}
+
+/* Tableau */
+table {
+    margin: 0 auto 40px auto;
+    width: 80%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    text-align: center;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+th {
+    background: #007bff;
+    color: #fff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Bouton supprimer une blague */
+.btn_suppr {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background 0.2s;
+}
+
+.btn_suppr:hover {
+    background: #a71d2a;
+}

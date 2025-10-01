@@ -1,0 +1,31 @@
+<!Doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP_Blagues_même_pas_drôles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+
+<body>
+    <h1>Tp Générateur de blagues</h1>
+    <form id="form_blague">
+        <input type="number" name = "nbr_blague" id="nbr_blague" required>choisir le nombre de blagues à afficher
+        <button type="submit" class="ajout_blague">ajouter</button>
+        <button id="supprimer_tout">supprimer toutes les blagues</button>
+    </form>
+    <table class="table table-striped-columns"  >
+        <thead>
+            <tr>
+                <th>catégorie</th>
+                <th>blague</th>
+                <th>editer une blague</th>  
+            </tr>
+        </thead>
+        <tbody id="table_body">
+        </tbody>
+    </table>
+    <script src="asset/js/script.js"></script>
+</body>
+</html>
